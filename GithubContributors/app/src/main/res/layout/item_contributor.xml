@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="contributor"
+            type="com.github.watanabear.githubcontributors.domain.model.Contributor"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/avatar_image"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:scaleType="centerCrop"
+            bind:imageUrl="@{contributor.avatarUrl}"
+            app:riv_oval="true" />
+
+    </RelativeLayout>
+</layout>

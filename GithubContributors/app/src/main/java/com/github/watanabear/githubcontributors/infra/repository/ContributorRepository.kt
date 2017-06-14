@@ -1,7 +1,8 @@
-package com.github.watanabear.githubcontributors.infra.dao
+package com.github.watanabear.githubcontributors.infra.repository
 
 import com.github.watanabear.githubcontributors.domain.model.Contributor
 import com.github.watanabear.githubcontributors.infra.api.GithubClient
+import com.github.watanabear.githubcontributors.infra.dao.ContributorDao
 import io.reactivex.Observable
 import javax.inject.Inject
 import javax.inject.Singleton
