@@ -9,5 +9,6 @@ import javax.inject.Singleton
 @Singleton
 class GithubClient @Inject constructor(private val service: GithubService) {
 
-    fun fetchContributors() = service.fetchContributors("DroidKaigi", "conference-app-2017", 100)
+    fun fetchContributors() = service.fetchContributors("DroidKaigi",
+            "conference-app-2017", 100)
 }
