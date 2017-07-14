@@ -1,4 +1,4 @@
-package com.github.watanabear.learn_rxjava2_android;
+package com.github.watanabear.learn_rxjava2_android.presentation;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,8 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.github.watanabear.learn_rxjava2_android.MyApplication;
+import com.github.watanabear.learn_rxjava2_android.R;
 import com.github.watanabear.learn_rxjava2_android.databinding.ActivityMainBinding;
 import com.github.watanabear.learn_rxjava2_android.databinding.ListItemClassBinding;
+import com.github.watanabear.learn_rxjava2_android.presentation.rxbus.RxBusActivity;
 
 import java.util.Arrays;
 import java.util.List;
@@ -29,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
                 new OnRecyclerListener() {
                     @Override
                     public void onItemClick(ActItem item) {
+                        if (item.aClass.equals(RxBusActivity.class)) {
+                            ((MyApplication) getApplication()).sendAutoEvent();
+                        }
                         startActivity(new Intent(MainActivity.this, item.aClass));
                     }
                 }));
@@ -36,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
 
     public enum ActItem {
 
-        MAIN(R.string.main_title, R.string.main_desc, MainActivity.class);
+        MAIN(R.string.main_title, R.string.main_desc, MainActivity.class),
+        RX_BUS(R.string.rxbus_title, R.string.rxbus_desc, RxBusActivity.class)
+        ;
 
         public final int title;
         public final int description;

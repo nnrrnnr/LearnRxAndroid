@@ -3,7 +3,7 @@
     <data>
         <variable
             name="actItem"
-            type="com.github.watanabear.learn_rxjava2_android.MainActivity.ActItem"/>
+            type="com.github.watanabear.learn_rxjava2_android.presentation.MainActivity.ActItem"/>
     </data>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
