@@ -16,6 +16,7 @@ import com.github.watanabear.learn_rxjava2_android.MyApplication;
 import com.github.watanabear.learn_rxjava2_android.R;
 import com.github.watanabear.learn_rxjava2_android.databinding.ActivityMainBinding;
 import com.github.watanabear.learn_rxjava2_android.databinding.ListItemClassBinding;
+import com.github.watanabear.learn_rxjava2_android.presentation.pagination.PaginationActivity;
 import com.github.watanabear.learn_rxjava2_android.presentation.rxbus.RxBusActivity;
 
 import java.util.Arrays;
@@ -43,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
     public enum ActItem {
 
         MAIN(R.string.main_title, R.string.main_desc, MainActivity.class),
-        RX_BUS(R.string.rxbus_title, R.string.rxbus_desc, RxBusActivity.class)
+        RX_BUS(R.string.rxbus_title, R.string.rxbus_desc, RxBusActivity.class),
+        PAGINATION(R.string.pagination_title, R.string.pagination_desc, PaginationActivity.class),
         ;
 
         public final int title;

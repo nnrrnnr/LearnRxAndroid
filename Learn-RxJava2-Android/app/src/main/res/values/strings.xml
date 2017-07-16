@@ -5,6 +5,8 @@
     <string name="main_desc">Description</string>
     <string name="rxbus_title">RxBus</string>
     <string name="rxbus_desc">RxBus, RxJava2Bus, EventBus, RxEventBus</string>
+    <string name="pagination_title">PageNation</string>
+    <string name="pagination_desc">Pagination for loadMore in RecyclerView</string>
 
     <string name="click">CLICK ME</string>
 </resources>
