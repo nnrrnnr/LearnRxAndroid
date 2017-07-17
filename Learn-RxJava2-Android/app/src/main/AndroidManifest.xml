@@ -18,7 +18,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".presentation.rxbus.RxBusActivity" />
-        <activity android:name=".presentation.pagination.PaginationActivity"></activity>
+        <activity android:name=".presentation.pagination.PaginationActivity" />
+        <activity android:name=".presentation.OperatorsActivity" />
+        <activity android:name=".presentation.operators.SimpleActivity"/>
+        <activity android:name=".presentation.operators.MapActivity"/>
+        <activity android:name=".presentation.operators.ZipActivity"/>
+        <activity android:name=".presentation.operators.DisposableActivity"/>
+        <activity android:name=".presentation.operators.TakeActivity"/>
+        <activity android:name=".presentation.operators.TimerActivity"/>
     </application>
 
 </manifest>

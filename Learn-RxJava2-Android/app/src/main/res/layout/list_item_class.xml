@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
-    <data>
-        <variable
-            name="actItem"
-            type="com.github.watanabear.learn_rxjava2_android.presentation.MainActivity.ActItem"/>
-    </data>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -13,13 +8,11 @@
     android:padding="16dp">
 
     <TextView
-        android:text="@{actItem.title}"
         android:id="@+id/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:text="@{actItem.description}"
         android:id="@+id/text_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
