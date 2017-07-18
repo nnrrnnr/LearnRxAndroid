@@ -16,6 +16,7 @@ import com.github.watanabear.learn_rxjava2_android.R;
 import com.github.watanabear.learn_rxjava2_android.databinding.ActivityMainBinding;
 import com.github.watanabear.learn_rxjava2_android.databinding.ListItemClassBinding;
 import com.github.watanabear.learn_rxjava2_android.presentation.operators.DisposableActivity;
+import com.github.watanabear.learn_rxjava2_android.presentation.operators.IntervalActivity;
 import com.github.watanabear.learn_rxjava2_android.presentation.operators.MapActivity;
 import com.github.watanabear.learn_rxjava2_android.presentation.operators.SimpleActivity;
 import com.github.watanabear.learn_rxjava2_android.presentation.operators.TakeActivity;
@@ -53,6 +54,8 @@ public class OperatorsActivity extends AppCompatActivity {
         DISPOSABLE(R.string.disposable, R.string.disposable, DisposableActivity.class),
         TAKE(R.string.take, R.string.take_d, TakeActivity.class),
         TIMER(R.string.timer, R.string.timer, TimerActivity.class),
+        INTERVAL(R.string.interval, R.string.interval, IntervalActivity.class),
+        SINGLE_OBSERVER(R.string.SingleObserver, R.string.SingleObserver, IntervalActivity.class),
 
         ;
 

@@ -27,6 +27,7 @@
         <activity android:name=".presentation.operators.TakeActivity"/>
         <activity android:name=".presentation.operators.TimerActivity"/>
         <activity android:name=".presentation.operators.IntervalActivity"/>
+        <activity android:name=".presentation.operators.SingleObserverActivity"/>
     </application>
 
 </manifest>
