@@ -49,9 +49,9 @@ public class OperatorsActivity extends AppCompatActivity {
 
         SIMPLE(R.string.simple, R.string.simple_d, SimpleActivity.class),
         MAP(R.string.map, R.string.map_d, MapActivity.class),
-        ZIP(R.string.zip, R.string.zip, ZipActivity.class),
+        ZIP(R.string.zip, R.string.zip_d, ZipActivity.class),
         DISPOSABLE(R.string.disposable, R.string.disposable, DisposableActivity.class),
-        TAKE(R.string.take, R.string.take, TakeActivity.class),
+        TAKE(R.string.take, R.string.take_d, TakeActivity.class),
         TIMER(R.string.timer, R.string.timer, TimerActivity.class),
 
         ;

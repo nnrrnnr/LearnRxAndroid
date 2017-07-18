@@ -26,6 +26,7 @@
         <activity android:name=".presentation.operators.DisposableActivity"/>
         <activity android:name=".presentation.operators.TakeActivity"/>
         <activity android:name=".presentation.operators.TimerActivity"/>
+        <activity android:name=".presentation.operators.IntervalActivity"/>
     </application>
 
 </manifest>

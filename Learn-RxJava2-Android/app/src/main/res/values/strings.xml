@@ -15,10 +15,12 @@
     <string name="simple">Simple</string>
     <string name="simple_d">Simple</string>
     <string name="map">Map</string>
-    <string name="map_d">Map</string>
+    <string name="map_d">transform the items emitted by an Observable by applying a function to each item</string>
     <string name="zip">Zip</string>
+    <string name="zip_d">combine the emissions of multiple Observables together via a specified function and emit single items for each combination based on the results of this function</string>
     <string name="disposable">Disposable</string>
     <string name="take">Take</string>
+    <string name="take_d">emit only the first n items emitted by an Observable</string>
     <string name="timer">Timer</string>
     <string name="interval">Interval</string>
     <string name="SingleObserver">SingleObserver</string>
